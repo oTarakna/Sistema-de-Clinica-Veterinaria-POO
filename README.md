@@ -23,6 +23,8 @@ O Sistema de Gestão Veterinária é o projeto final desenvolvido para a discipl
 
 O sistema permite gerenciar clientes, cadastrar médicos veterinários e animais, realizar agendamentos de consultas, controlar atendimentos e prontuários, além de gerar informações financeiras e executar outras funcionalidades essenciais para a administração da clínica. Dessa forma, o projeto demonstra a aplicação prática dos conceitos de POO no desenvolvimento de um sistema organizado, funcional e de fácil manutenção.
 
+📄 **[Especificação do Projeto](https://github.com/oTarakna/Sistema-de-Clinica-Veterinaria-POO/blob/main/Especifica%C3%A7%C3%A3o%20do%20Projeto.md)**
+
 ## Como Rodar
 ### Ferramentas Necessárias
 Antes de executar o projeto, é necessário ter os seguintes recursos instalados:
