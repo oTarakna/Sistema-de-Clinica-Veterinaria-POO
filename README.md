@@ -48,3 +48,62 @@ Porta	5432
 
 Caso sua configuração seja diferente, basta alterar os valores da classe DBConnection ou definir as variáveis de ambiente correspondentes (DB_HOST, DB_NAME, DB_USER, DB_PASS e DB_PORT).
 
+### Executando o Sistema
+O projeto pode ser executado de duas maneiras diferentes, conforme a preferência do usuário.
+
+## Opção 1 — Utilizando uma IDE
+
+1. Clone o repositório utilizando o Git:
+
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   ```
+
+   Ou utilize o **GitHub Desktop** para clonar o projeto.
+
+2. Abra a pasta do projeto em uma IDE de sua preferência (Visual Studio Code, PyCharm, entre outras).
+
+3. Navegue até a pasta `ui` e execute o arquivo `menu.py`.
+
+A organização do projeto está estruturada da seguinte forma:
+
+<img width="216" height="726" alt="image" src="https://github.com/user-attachments/assets/20bb89d3-2c17-4284-93c1-fc3663cfd62c" />
+
+As principais pastas são:
+
+- **database/** — Responsável pela conexão com o banco de dados e criação das tabelas.
+- **models/** — Contém as classes que representam as entidades do sistema.
+- **repositories/** — Responsável pelas operações de acesso ao banco de dados (CRUD).
+- **service/** — Implementa as regras de negócio da aplicação.
+- **ui/** — Interface do sistema, contendo o arquivo `menu.py`, responsável por iniciar a aplicação.
+
+---
+
+## Opção 2 — Executando pelo Terminal (CMD)
+
+1. Clone o repositório:
+
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   ```
+
+2. Acesse a pasta do projeto:
+
+   ```bash
+   cd Sistema
+   ```
+
+3. Entre na pasta da interface:
+
+   ```bash
+   cd ui
+   ```
+
+4. Execute o sistema:
+
+   ```bash
+   python menu.py
+   ```
+
+> **Observação:** Antes de iniciar o sistema, certifique-se de que o PostgreSQL esteja em execução e configurado corretamente, conforme descrito na seção **Ferramentas Necessárias**.
+
