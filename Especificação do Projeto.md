@@ -208,3 +208,13 @@ A tabela a seguir consolida a malha de interações estruturais do sistema de ac
 
 --------------------------------------------------------------------------
 # Representação Visual da Estrutura de Classes
+
+### Diagrama de Classe
+
+<img width="5943" height="3781" alt="Diagrama-Classe-POO" src="https://github.com/user-attachments/assets/2b684545-cbac-4111-9905-772c7e610673" />
+
+### Modelo Entidade-Relacionamento
+
+<img width="4194" height="3066" alt="MER-POO" src="https://github.com/user-attachments/assets/c8970d1f-7bf5-4584-9b7d-a667473f3998" />
+
+
